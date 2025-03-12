@@ -19,10 +19,7 @@ const launch = (props: { navigation: { navigate: (arg0: string) => void; }; }) =
         } catch(e) {
             console.log(e);
         }
-    }
-
     
-
     const validateToken = async(token:any,props:any) => {
         const header={
             "Authorization": `Bearer ${token}`
@@ -48,7 +45,6 @@ const launch = (props: { navigation: { navigate: (arg0: string) => void; }; }) =
             props.navigation.navigate("Login");
         })
     }
-
     return(
         <View style={styles.background}>
         

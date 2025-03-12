@@ -15,19 +15,14 @@ const styles = StyleSheet.create({
     logo:{
         alignItems: 'center',
         width:"100%",
-        // paddingTop:"50%"
         marginTop:"30%",
      
     },
     logoImage:{
         alignItems: 'center',
-        //width:200,
-        //height:20,
+
     },
     img:{
-        // paddingTop:255,
-        // position:"absolute", 
-        // marginBottom:150 
         width:'100%',
         height:"80%",
         
@@ -35,7 +30,7 @@ const styles = StyleSheet.create({
         alignItems:"center"
     },
     image:{
-        // top:110,
+
         position:"absolute", 
         width:'100%',
         height:'100%'
