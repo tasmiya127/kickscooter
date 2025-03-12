@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "kickscooter-app",
+    "slug": "kickscooter-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/main_logo.png",
+    "splash": {
+      "image": "./assets/iconmev.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config":{
+        "googleMapsApiKey":"AIzaSyASgdBuTg_bazm1p0_z8KvH90XC08lBdYg"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/main_logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyDpNFvUHc05R6d4mjfUW9IANUPrZtybtDs"
+      }
+    },
+      "package": "kickscooter.apk"
+      
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
